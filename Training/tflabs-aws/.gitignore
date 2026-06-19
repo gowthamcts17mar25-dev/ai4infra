@@ -1,0 +1,50 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+.tfvars
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lambda
+lambda_shutdown.zip
+
+# Build artifacts
+*.log
+.env
+.env.local
+
+# AWS CLI
+.aws/
+aws_access_key_id
+aws_secret_access_key
+
+# Sensitive
+admin_password
+*.pem
+*.key

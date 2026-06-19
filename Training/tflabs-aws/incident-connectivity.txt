@@ -1,0 +1,11 @@
+=== Connectivity Check Wed Jun 17 05:35:07 UTC 2026 ===
+  [FAIL]  ping gateway (10.0.0.1)
+  [PASS]  ping DB (10.0.2.10)
+  [FAIL]  ping Internet (8.8.8.8)
+  [FAIL]  port 5432 (PostgreSQL)
+  [PASS]  port 80 (HTTP internet)
+  [PASS]  DNS resolution
+  [PASS]  default route exists
+  [PASS]  no tc latency rules on eth0
+
+Result: 5 passed  3 failed

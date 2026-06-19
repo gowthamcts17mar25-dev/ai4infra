@@ -1,0 +1,11 @@
+# SSH private key — never commit
+finbridge-vm-key
+finbridge-vm-key.ppk
+
+# Terraform state and secrets
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+tfplan

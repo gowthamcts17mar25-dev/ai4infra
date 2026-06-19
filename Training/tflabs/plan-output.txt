@@ -1,0 +1,11 @@
+[0m[1mvar.admin_password[0m
+  Admin password for all VMs
+
+  [1mEnter a value:[0m [0m
+
+
+Interrupt received.
+Please wait for Terraform to exit or data loss may occur.
+Gracefully shutting down...
+
+Stopping operation...

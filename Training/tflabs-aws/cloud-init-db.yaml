@@ -1,0 +1,19 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+
+packages:
+  - postgresql
+  - postgresql-contrib
+
+runcmd:
+  - sudo systemctl start postgresql
+  - sudo systemctl enable postgresql
+  - sudo -u postgres psql -c "ALTER SYSTEM SET listen_addresses = '*';"
+  - echo "host    all             all             10.0.0.0/16             md5" | sudo tee -a /etc/postgresql/*/main/pg_hba.conf
+  - sudo systemctl restart postgresql
+
+write_files:
+  - path: /var/log/cloud-init-db.log
+    content: |
+      PostgreSQL database initialization completed
