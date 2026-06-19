@@ -8,3 +8,8 @@ Generate Terraform code from scratch to deploy the following Azure resources for
 
 Organize the code into main.tf, variables.tf, and outputs.tf files following best practices.
 Ensure the configuration is idempotent, passes linting, and has bounded scope.
+
+traininguser105@labasservice.onmicrosoft.com
+ 
+5wY6L8rcUcA8l9k5
+ 
